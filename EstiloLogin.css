@@ -1,0 +1,188 @@
+.login-page{
+background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/d0982892-13ac-4702-b9fa-87a410c1f2da/31683233-df64-427d-9330-82deac4c28c1/MX-es-20220321-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+background-position: initial;
+min-width: 100%;
+min-width: 100%;
+
+}
+body{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+
+}
+.logo{
+    width: 170px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 20;
+}
+.signin{
+    background-color: #000000BF;
+    border-radius: 10px;
+    color:#fff;
+    margin: 40px auto 100px;
+    padding: 70px 60px 150px;
+    width: 450px;
+}
+.signin h1 {
+    margin: 0 0 25px;
+    font-size: 30px;
+}
+.signin input{
+    display:block;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.signin input[type="text"]{
+background-color: #353535;
+font-size: 15px;
+outline: none;
+margin-bottom: 20px;
+padding: 0 20px;
+
+
+}
+.signin input[type="password"]{
+background-color: #353535;
+font-size: 15px;
+outline: none;
+margin-bottom: 20px;
+padding: 0 20px;
+}
+.signin input [type="text"]::-webkit-input-placeholder{
+    color:#E8F0FE;
+    font: size 16px;
+}
+.signin input [type="password"]::-webkit-input-placeholder{
+    color:#E8F0FE;
+    font: size 16px;
+}
+.signin input[type="submit"]{
+    background-color: red;
+    font-size: 16px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.signin .help {
+
+    color:#8c8c8c;
+    margin-top: 12px;
+    padding: 0; 
+    font-size: 13px;
+    display: block;
+    justify-content: space-between;
+
+}
+.signin .help .check {
+    display: flex;
+    align-items: center;
+}
+.check input{
+    width: 20px;
+    height: 20px;
+}
+.check label {
+    margin-left: 5px;
+    width: 90%;
+
+}
+.help .necesitar a {
+    text-decoration: none;
+    color: #8c8c8c;
+
+}
+.help .necesitar a:hover{
+    text-decoration: underline;
+}
+.footer-signing{
+    margin-top: 10px;
+
+}
+.footer-signing .login {
+    text-decoration: none;
+    color: #727272;
+    font-size: 13px;
+}
+.login .facebook {
+    width: 20px;
+    vertical-align: middle;
+    margin: right 10px;
+}
+.footer-signing .new {
+    margin-top: 12px;
+    font-size: 17px ;
+    color: #727272;
+    font-weight: lighter;
+}
+.footer-signing .new a{
+    color:#fff;
+    text-decoration: none;
+    margin-left: 5px;   
+}
+.footer-signing .new a:hover{
+    text-decoration: underline;
+
+}
+.footer-signing .protect {
+margin-top: 12px;
+font-size: 13px;
+color: #9b9b9b;
+}
+.footer-signing .protect a {
+    text-decoration: none;
+    color: #5656ff;
+}
+.footer {
+    padding: 25px 40px 50px;
+    background-color: #000000BF;
+    margin: auto;
+    
+
+}
+.footer a:hover {
+    text-decoration: underline;
+
+}
+.footer-info p {
+    max-width: 1000px;
+    margin: 0 0 30px;
+    color: #757575;
+    
+}
+.footer-info p a {
+    color: inherit;
+    text-decoration: none;
+
+}
+.footer-links{
+    
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 0 16px;
+   
+}
+
+.footer-limks__item{
+    width: 250px;
+    min-width: 200px;
+}
+.footer-limks__item a {
+ color: gray;
+ font-size: 13px;
+ margin-bottom: 10px;
+ text-decoration:none ;
+}
+.footer-info select{
+    background-color: #000;
+    border: 1px solid rgba (128,128,128,.466);
+    color: gray;
+    outline:none ;
+    margin: 20px 0 0 ;
+    padding: 12px 26px 12px 50px;
+    
+}
